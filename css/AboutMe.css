@@ -1,21 +1,21 @@
 body {
-  background: teal;
+	background: teal;
 }
 
 h1 {
-  font-size: 44px;
+	font-size: 44px;
 }
 
 h2 {
-  text-align: center;
+	text-align: center;
 }
 
 .photo {
-  width: 30%;
-  height: 30%;
-  margin-left: 460px;
-  margin-bottom: 30px;
-  border: solid lightgray 7px;
+ 	width: 30%;
+ 	height: 30%;
+ 	margin-left: 460px;
+ 	margin-bottom: 30px;
+ 	border: solid lightgray 7px;
 }
 
 li {
@@ -29,20 +29,22 @@ p {
 	font-family: calibri;
 	font-size: 18px;
 	font-weight: bold;
+	width: 300px;
+	text-align: center;
 }
 
 .headings {
-	 font-weight: bold;
-	 font-family: calibri;
-	 color: lightgray;
-	 padding: 0px 30px;
+	font-weight: bold;
+	font-family: calibri;
+	color: lightgray;
+	padding: 0px 30px;
 }
 
  #box-container {
-    display: flex;
-    height: 100%;
-    flex-wrap: wrap;
-    justify-content: space-around;
+   	display: flex;
+  	height: 100%;
+  	flex-wrap: wrap;
+  	justify-content: space-around;
   	align-items: center;
  }
 
