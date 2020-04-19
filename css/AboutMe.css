@@ -10,14 +10,6 @@ h2 {
 	text-align: center;
 }
 
-.photo {
- 	width: 30%;
- 	height: 30%;
- 	margin-left: 460px;
- 	margin-bottom: 30px;
- 	border: solid lightgray 7px;
-}
-
 li {
 	font-family: calibri;
 	font-size: 18px;
@@ -25,11 +17,18 @@ li {
 }
 
 p {
+	margin-left: 100px;
 	font-family: calibri;
 	font-size: 18px;
 	font-weight: bold;
-	width: 900px;
-	text-align: center;
+	text-align: jusify;
+	width: 750px;
+}
+
+.books {
+	border: solid lightgray 7px;
+	width: 300px;
+	height: 450px;
 }
 
 .headings {
@@ -37,6 +36,14 @@ p {
 	font-family: calibri;
 	color: lightgray;
 	padding: 0px 30px;
+}
+
+.photo {
+ 	width: 30%;
+ 	height: 30%;
+ 	margin-left: 460px;
+ 	margin-bottom: 30px;
+ 	border: solid lightgray 7px;
 }
 
  #box-container {
@@ -47,8 +54,3 @@ p {
   	align-items: center;
  }
 
-.books {
-	border: solid lightgray 7px;
-	width: 300px;
-	height: 450px;
-}
