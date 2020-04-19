@@ -1,0 +1,65 @@
+body {
+  background: teal;
+}
+
+h1 {
+  font-size: 44px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.photo {
+  width: 30%;
+  height: 30%;
+  margin-left: 460px;
+  margin-bottom: 30px;
+  border: solid lightgray 7px;
+}
+
+li {
+	font-family: calibri;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+p {
+	margin-left: 20px;
+	font-family: calibri;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.headings {
+	 font-weight: bold;
+	 font-family: calibri;
+	 color: lightgray;
+	 padding: 0px 30px;
+}
+
+ #box-container {
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  	align-items: center;
+ }
+
+.books {
+	border: solid lightgray 7px;
+	width: 300px;
+	height: 450px;
+}
+
+
+/*.homegoing {
+	width: 15%;
+	height: 25%;
+}
+
+.freedom {
+	width: 15%;
+	height: 25%;
+}
+*/
