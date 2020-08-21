@@ -1,13 +1,28 @@
 body {
-	background: teal;
+  background: teal;
+}
+
+button {
+	border-radius: 15%;
+	background: #212f3c;
+	border: solid lightgray;
+	color: lightgray;
 }
 
 h1 {
-	font-size: 44px;
+  font-size: 44px;
 }
 
 h2 {
-	text-align: center;
+  text-align: center;
+}
+
+.photo {
+  width: 30%;
+  height: 30%;
+  margin-left: 460px;
+  margin-bottom: 30px;
+  border: solid lightgray 7px;
 }
 
 li {
@@ -17,13 +32,32 @@ li {
 }
 
 p {
-	margin-left: 325px;
+	margin-left: 20px;
 	font-family: calibri;
 	font-size: 18px;
 	font-weight: bold;
-	text-align: justify;
-	width: 750px;
+	width: 1000px;
+	margin-left: 150px;
 }
+
+section li {
+	margin-left: 40px;
+}
+
+.headings {
+	 font-weight: bold;
+	 font-family: calibri;
+	 color: lightgray;
+	 padding: 0px 30px;
+}
+
+ #box-container {
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  	align-items: center;
+ }
 
 .books {
 	border: solid lightgray 7px;
@@ -31,26 +65,6 @@ p {
 	height: 450px;
 }
 
-.headings {
-	font-weight: bold;
-	font-family: calibri;
-	color: lightgray;
-	padding: 0px 30px;
+#toggle {
+	display: none;
 }
-
-.photo {
- 	width: 30%;
- 	height: 30%;
- 	margin-left: 460px;
- 	margin-bottom: 30px;
- 	border: solid lightgray 7px;
-}
-
- #box-container {
-   	display: flex;
-  	height: 100%;
-  	flex-wrap: wrap;
-  	justify-content: space-around;
-  	align-items: center;
- }
-
